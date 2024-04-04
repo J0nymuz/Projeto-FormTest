@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grunder Heavy Industries</title>
+
+</head>
+
+<body>
+    <header>
+
+    <h1>Cadastro Pessoal</h1>
+    <img src="Img/grunder1.png" 
+         alt="Boas Vindas a Grunder">
+    </header>
+    <div>
+        
+    <form action="action_page.php" method="post">
+        
+        <fieldset>
+           <legend>Dados Pessoais</legend>
+           <div>
+
+            <label for="fname">Primeiro Nome:</label required>
+            <input type="text" id="fname" name="fname" placeholder="Escreva seu nome aqui" required>
+
+            <label for="lname">Sobrenome:</label required>
+            <input type="text" id="lname" name="lname" placeholder="Escreva seu nome aqui" required>
+
+            <label for="email">Escreva seu email:</label>
+            <input type="email" id="email" name="email" placeholder="Escreva seu email aqui" required>
+
+           </div>
+
+           <div>
+            <label for="DataNascimento">Data de Nascimento:</label required>
+                <input type="date" name="Data de Nascimento" required>
+           </div>
+
+           <div>
+            <label for="rg">RG:</label required>
+            <input type="text" name="RG" required>
+
+           </div>
+
+           <div>
+            <label for="cpf">CPF</label required>
+            <input type="number" name="CPF" required>
+           </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Login</legend>
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        <required>
+            <label for="pass">Senha:</label>
+            <input type="password" id="pass" name="pass" Maxlenght="12"  placeholder="Escreva sua nome aqui"> 
+        </required>
+        
+        <br>
+
+        <div>
+            <label for="email">Escreva seu email:</label>
+            <input type="email" id="email" name="email"  placeholder="Escreva seu email aqui">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Phone">Telefone:</label>
+            <input type="tel" id="Phone" name="Phone" placeholder="Escreva seu numero aqui">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Bdate">data de nascimento:</label>
+            <input type="date" id="Bdate" name="Bdate">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="title">titulo:</label>
+
+            <label for="Sr.">Sr.</label>
+            <input type="radio" id= "Sr." name="title" value="Sr.">
+    
+            <label for="Sra.">Sra.</label>
+            <input type="radio" id="Sra." name="title" value="Sra">
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." name="title" value="PhD.">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+        
+        <div>
+             <input type="send">
+        </div>
+
+    </form>
+
+
+</body>
+</html>
