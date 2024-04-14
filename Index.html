@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="pt-br">
 
@@ -16,7 +16,7 @@
 
     <h1>Cadastro Pessoal</h1>
     <img src="Img/grunder1.png" 
-         alt="Boas Vindas a Grunder">
+         alt="Boas Vindas a Grunder!">
 
     </header>
     <div>
@@ -24,6 +24,8 @@
     <form action="action_page.php" method="post">
         
         <fieldset>
+
+        <div>
            <legend>Dados Pessoais</legend>
 
            <div>
@@ -33,8 +35,12 @@
             <label for="lname">Sobrenome:</label required>
             <input type="text" id="lname" name="lname" placeholder="Escreva seu nome aqui" required>
 
+            <br>
+
             <label for="email">Escreva seu email:</label>
             <input type="email" id="email" name="email" placeholder="Escreva seu email aqui" required>
+
+            <br>
 
            <label for="Telefone">Escreva seu Telefone:</label>
            <input type="Telefone" id="Telefone" name="Telefone" placeholder="Escreva seu numero de Telefone" required>
@@ -47,22 +53,27 @@
 
            <div>
             <label for="rg">RG:</label required>
-            <input type="text" name="RG" required>
+            <input type="text" name="RG" placeholder="Escreva seu RG" required>
            </div>
 
            <div>
             <label for="cpf">CPF</label required>
-            <input type="number" name="CPF" required>
+            <input type="number" name="CPF" placeholder="Escreva seu CPF" required>
            </div>
 
         </fieldset>
 
+        <br>
+
         <fieldset>
+            <div>
             <legend>Endereço</legend>
             
             <div>
             <label for="Endereço">Endereço</label required>
             <input type="text" id="Address" name="Address" placeholder="Escreva seu Endereço aqui" required>
+
+            <br>
 
             <label for="Casa">Casa</label required>
             <input type="checkbox" id="Casa" name="Casa" value="Casa" required>
@@ -73,12 +84,24 @@
 
         </fieldset>
 
+        <br>
+
         <fieldset>
+
+            <div>
             <legend>Login</legend>
 
             <div>
+
+            <label for="text">Escreva seu nome de usuario:</label>
+            <input type="text" id="user" name="user" placeholder="Escreva seu nome de usuario" required>
+    
+            <br>
+
             <label for="email">Escreva seu email:</label>
             <input type="email" id="email" name="email" placeholder="Escreva seu email aqui" required>
+
+            <br>
 
             <label for="pass">Senha:</label>
             <input type="password" id="pass" name="pass" Maxlenght="12"  placeholder="Escreva sua Senha aqui" required> 
