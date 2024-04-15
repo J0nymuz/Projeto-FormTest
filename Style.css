@@ -1,22 +1,26 @@
-header{background-color: rgb(253, 226, 226);
-    font-family:Arial, Helvetica, sans-serif;
-    font-style:initial;
-    width:80%;
-    margin: auto;
+body, html{background-image:url("Cfa44.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 
 }
 
-
-body{
-
-    background-color: rgb(0, 0, 0);
+header{
     font-family:Arial, Helvetica, sans-serif;
-    width:auto;
-    margin: auto;
+    font-style:initial;
+    width:75%;
+    margin:auto;
+
+}
+
+h1{ font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 fieldset{
-    background-color:rgb(253, 226, 226);
-    width: 80%;
+    background-color:rgb(255, 255, 255);
+    width: 75%;
     margin: auto;
 }
+
