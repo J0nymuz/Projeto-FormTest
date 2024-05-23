@@ -17,52 +17,37 @@
 <body>
     <header>
 
-    <h1>Cadastro Pessoal/Login</h1>
+        <h1>Cadastro Pessoal/Login</h1>
 
-    <img src="grunder1.png"
-         alt="Boas Vindas a Grunder!">
+        <img src="grunder1.png" alt="Boas Vindas a Grunder!">
 
     </header>
        
-    <br>
+    
 
-    <form action="action_page.php" method="post">
+    <form action="" method="post">
         
         <fieldset>
+            <div>
+                <legend>Dados Pessoais</legend>
 
-        <div id="Dados">
-           <legend>Dados Pessoais</legend>
+                <label for="fname">Primeiro Nome:</label required>
+                <input type="text" id="fname" name="fname" placeholder="Escreva seu nome aqui" required>
 
-            <br>
-
-           <div>
-            <label for="fname">Primeiro Nome:</label required>
-            <input type="text" id="fname" name="fname" placeholder="Escreva seu nome aqui" required>
-
-            <br>
-
-            <label for="lname">Sobrenome:</label required>
-            <input type="text" id="lname" name="lname" placeholder="Escreva seu Sobrenome " required>
-
-            <br>
-
-           <label for="Telefone">Escreva seu Telefone:</label Minlenght=14 Maxlenght=14 required>
-           <input type="Telefone" id="Telefone" name="Telefone" placeholder="(12)93456-7890" required>
-          </div>
-
-           <div>
-            <label for="DataNascimento">Data de Nascimento:</label>
-            <input type="date" name="Data de Nascimento" required>
-           </div>
-
-           <div>
-            <label for="rg">RG:</label Maxlenght=11 Minlenght=11 required>
-            <input type="text" name="RG" placeholder="976" required>
-           </div>
-
-           <div>
-            <label for="CPF">CPF</label Maxlenght=14 Minlenght=11 required>
-            <input type="text" name="CPF" placeholder="465" required>
+                <label for="lname">Sobrenome:</label required>
+                <input type="text" id="lname" name="lname" placeholder="Escreva seu Sobrenome " required>
+            
+                <label for="Telefone">Escreva seu Telefone:</label Minlenght=14 Maxlenght=14 required>
+                <input type="Telefone" id="Telefone" name="Telefone" placeholder="(12)93456-7890" required>
+         
+                <label for="DataNascimento">Data de Nascimento:</label>
+                <input type="date" name="Data de Nascimento" required>
+           
+                <label for="rg">RG:</label Maxlenght=11 Minlenght=11 required>
+                <input type="text" name="RG" placeholder="976" required>
+           
+                <label for="CPF">CPF</label Maxlenght=14 Minlenght=11 required>
+                <input type="text" name="CPF" placeholder="465" required>
            </div>
 
         </fieldset>
@@ -70,85 +55,57 @@
         <br>
 
         <fieldset>
-            <div id="Loc">
-            <legend>Endereço</legend>
-            
             <div>
-
-            <br>  
-            <label for="rua">Rua</label required>
-            <input type="text" id="Address" name="Address" placeholder="Rua" required>
-
-            <br>
-                
-            <label for="Numero">Numero</label required>
-            <input type="number" id="Address" name="Address" placeholder="000"required>
             
-            <br>
-                
-            <label for="Bairro">Bairro</label required>
-            <input type="text" id="Address" name="Address" placeholder="Bairro" required>
-
-            <br>
+                <legend>Endereço</legend>
             
-            <label for="Cidade">Cidade</label required>
-            <input type="text" id="Address" name="Address" placeholder="Cidade" required>
+                <label for="rua">Rua</label required>
+                <input type="text" id="Address" name="Address" placeholder="Rua" required>
+    
+                <label for="Numero">Numero</label required>
+                <input type="number" id="Address" name="Address" placeholder="000"required>
+                            
+                <label for="Bairro">Bairro</label required>
+                <input type="text" id="Address" name="Address" placeholder="Bairro" required>
 
-            <br>
+                <label for="Cidade">Cidade</label required>
+                <input type="text" id="Address" name="Address" placeholder="Cidade" required>
 
-            <label for="Estado">Estado</label required>
-            <input type="list" id="Address" name="Address" placeholder="Estado" required>
-            
+                <label for="Estado">Estado</label required>
+                <input type="list" id="Address" name="Address" placeholder="Estado" required>
+            <div> 
           
         </fieldset>
-
         <br>
-
         <fieldset>
 
-            <div id=On>
-            <legend>Login</legend>
-
-            <br>
-
-            <label for="file">Imagem de Perfil</label>
-            <input type="file" id="img" name="user">
-
-            <br>
-
             <div>
-            <label for="text">Escreva seu nome de usuario:</label>
-            <input type="text" id="user" name="user" placeholder="jon1234" required>
-    
-            <br>
+                <legend>Login</legend>
 
-            <label for="email">Escreva seu email:</label>
-            <input type="email" id="email" name="email" placeholder="Escreva seu email aqui" required>
+                <label for="file">Imagem de Perfil</label>
+                <input type="file" id="img" name="user">
 
-            <br>
-
-            <label for="pass">Senha:</label>
-            <input type="password" id="pass" name="pass" Maxlenght="12"  placeholder="Escreva sua Senha aqui" required> 
-        
-            <br>
             
+                <label for="text">Escreva seu nome de usuario:</label>
+                <input type="text" id="user" name="user" placeholder="jon1234" required>
+    
+            
+
+                <label for="email">Escreva seu email:</label>
+                <input type="email" id="email" name="email" placeholder="Escreva seu email aqui" required>
+
+            
+
+                <label for="pass">Senha:</label>
+                <input type="password" id="pass" name="pass" Maxlenght="12"  placeholder="Escreva sua Senha aqui" required> 
             </div>
-
-            <br>
-           
-           <button onclick="doSomething"style="font-size:25px;background-color:grey;color:lightred">Enviar</button>
-
-           <p id="hidden">Formulario ainda não enviado.</p>
-
-           <script>
-             function doSomething(){
-                document.getElementById("hidden").innerHTML="Formulario Enviado!";   
-             }
-           </script>
-
-
+   
         </fieldset>
-       
+
+        <div id="botoesfinal">
+            <input type="submit" id="Enviar" Value=Enviar>
+            <input type="reset" id="limpar" value="Limpar">
+        </div>
     </form>
 
 </body>
