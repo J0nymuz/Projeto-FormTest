@@ -1,0 +1,27 @@
+body, html{background-image:url("Cfa44.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+header{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:initial;
+    width:50%;
+    margin:auto;
+
+}
+
+h1{ font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+fieldset{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color:rgb(255, 255, 255);
+    width: 50%;
+    margin:auto;
+}
+
